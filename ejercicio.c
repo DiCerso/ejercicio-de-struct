@@ -55,7 +55,7 @@ int main(void)
     int promedio = sum / i;
 
     printf("el promedio del stock de los productos es: %d\n", promedio);
-    printf("los productos que tienen un stock menor al promedio son:\n");
+    printf("los productos que tienen un stock mayor al promedio son:\n");
     for (int num = 0; num < i; num++)
     {
         MATERIALES *punt = &dato[num];
